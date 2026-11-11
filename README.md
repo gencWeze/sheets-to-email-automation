@@ -74,7 +74,7 @@ A ready-to-use copy with fictional data is in [`sample-data/`](sample-data/TIMEL
 
 ## 🧪 Testing
 
-I tested the prototype end to end with fictional data. Status-change notifications, H-1 and H bank reminders, and test emails were all logged as `SENT`, and re-running the same rows was correctly skipped as a duplicate.
+I tested the prototype end to end with fictional data. During a trial run from **1 to 11 November 2026**, the scheduled and on-edit triggers logged **24 notifications** (status-change alerts, H-1 and H bank reminders, and test emails), all with status `SENT`. Re-running the same rows was correctly skipped as a duplicate.
 
 | Bank reminder email | Notification log |
 |---|---|
